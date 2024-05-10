@@ -1,0 +1,27 @@
+[
+{
+  "selector": "node",
+  "style": {
+    "background-color": "#666",
+    "label": "data(id)",
+    "color": "black"
+  }
+},
+{
+  "selector": "edge",
+  "style": {
+    "width": 3,
+    "line-color": "#ccc",
+    "target-arrow-color": "#ccc",
+    "target-arrow-shape": "triangle",
+    "curve-style": "bezier"
+  }
+},
+{
+  "selector": "#tbug",
+  "style": {
+    "background-image" : "./assets/tbugmini.jpg",
+    "background-fit" : "cover"
+  }
+}
+]

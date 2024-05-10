@@ -1,0 +1,21 @@
+{
+"nodes": [
+    {
+        "data": {"id" : "tbug", "title":"Tatoe Bug (Drone Kick King)", "content":":PoroSad, this is placeholder content."}
+    },
+    {
+        "data": {"id" : "ff", "title":"Founding Families", "content":"Branches out to the Founding Families nodes."}
+    },
+    {   "data": {"id": "meadows", "title":"Meadows", "content": "Known as the \"Restless Eye of Veargrum\" , there is nothing that goes on in that country without their say, or at least their knowledge. Power is hard to get but even harder to let go of."}},
+    {   "data": {"id": "walsons", "title":"Wallsons", "content": "Revolution doesn't have to be measured in blood, the ingenious Wallsons are responsible for Veargreum's industrial revolution, and ever since have outdone themselves with further techonlogical advancements. As often happens, their interest in science goes hand in hand with the needs and aims of Veargreum's militaristic infraestructure. Budget has to come from somewhere, and \"other villages\" sounds just fine for the Wallsons."}},
+    {   "data": {"id": "lilfoot", "title":"Little Foots", "content": "Level headed and down to Crius. Instead of hoarding power and lusting for ir, the Littlefoots offer it to Veargreum with open arms in the form of humanitarian aids for those living in the roughest areas, and survivors of conquered kingdoms."}}
+],
+"edges": [
+    {
+        "data": {"id" : "tbff", "source": "tbug", "target": "ff"}
+    },
+    {   "data": {"id" : "ffm","source": "ff", "target": "meadows"}},
+    {   "data": {"id" : "ffw","source": "ff", "target": "walsons"}},
+    {   "data": {"id" : "ffl","source": "ff", "target": "lilfoot"}}
+]
+}
