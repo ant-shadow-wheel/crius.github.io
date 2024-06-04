@@ -1,21 +1,45 @@
 {
 "nodes": [
-    {
-        "data": {"id" : "tbug", "title":"Tatoe Bug (Drone Kick King)", "content":":PoroSad, this is placeholder content."}
-    },
-    {
-        "data": {"id" : "ff", "title":"Founding Families", "content":"Branches out to the Founding Families nodes."}
-    },
-    {   "data": {"id": "meadows", "title":"Meadows", "content": "Known as the \"Restless Eye of Veargrum\" , there is nothing that goes on in that country without their say, or at least their knowledge. Power is hard to get but even harder to let go of."}},
-    {   "data": {"id": "walsons", "title":"Wallsons", "content": "Revolution doesn't have to be measured in blood, the ingenious Wallsons are responsible for Veargreum's industrial revolution, and ever since have outdone themselves with further techonlogical advancements. As often happens, their interest in science goes hand in hand with the needs and aims of Veargreum's militaristic infraestructure. Budget has to come from somewhere, and \"other villages\" sounds just fine for the Wallsons."}},
-    {   "data": {"id": "lilfoot", "title":"Little Foots", "content": "Level headed and down to Crius. Instead of hoarding power and lusting for ir, the Littlefoots offer it to Veargreum with open arms in the form of humanitarian aids for those living in the roughest areas, and survivors of conquered kingdoms."}}
+    {"data": {"id": "bc", "title":"200 BC",
+    "content1":"Tribes and villages grow and organize. Evidence points to a Tormek base in the Northern Mountains as the largest settlement at the time.",
+    "content2":"BC stands for Before Crius. This means before the name for the planet was unified across all countries. During this time each country addressed time in different ways."},
+    "position": {"x": 130, "y": 240}},
+    {"data": {"id": "vc", "title":"VC",
+    "content1":"\"Vivat Crius\" or \"Long Live Crius!\" Year Zero: Crius is established as the name used in all countries to refer to the wonderful world they inhabit.",
+    "content2":"Records were not well documented for time before 1 BC."},
+    "position": {"x": 170, "y": 235}},
+    {"data": {"id": "vc2", "title":"100 VC",
+    "content1":"Oogley Meeps and Sherwin begin their journey to map out and research all of Veargreum. It also marks the emergence of the country.",
+    "content2":"?https://www.catchycantrips.com/categorization/sherwin-journals?The fruits of their research were compiled in the Sherwin Journals."},
+    "position": {"x": 190, "y": 230}},
+    {"data": {"id": "vc3", "title":"220 VC",
+    "content1":"The 3 founding families come together: Meadows, Wallsons and Littlefoots.","content2":""},
+    "position": {"x": 215, "y": 230}},
+    {"data": {"id": "vc4", "title":"584 VC Shaping up",
+    "content1":"The founding families take a representative from the newly formed regions to form the \"House of 9\".","content2":""},
+    "position": {"x": 300, "y": 225}},
+    {"data": {"id": "vc5", "title":"895 VC Disaster",
+    "content1":"The once prosperous Tardrix loses its Sun, blocked away behind a blanket of ash. The complete indifference of the rest of Veargreum to their frozen sterile farms, and the penetrating, bone-snapping chill they had to endure in the everlasting night; prompt their withdrawal from the House of 9.","content2":""},
+    "position": {"x": 360, "y": 235}},
+    {"data": {"id": "vc6", "title":"1095 VC Blind Lady",
+    "content1":"A new leader for The House of 9 is placed in power: Miri, a mechanical woman built specifically for the task.","content2":""},
+    "position": {"x": 380, "y": 230}},
+    {"data": {"id": "vc7", "title":"1392 VC Great Calamity",
+    "content1":"When the heavens fell and destroyed the Hollow Point island (and everyone on it).","content2":""},
+    "position": {"x": 440, "y": 240}},
+    {"data": {"id": "vc8", "title":"1395 VC Affliction",
+    "content1":"Current Year: Tensions are high with incesant reports of a strange disease (unstoppable so far) corrupting everything it comes into contact with.",
+    "content2":"?https://www.catchycantrips.com/lore/affliction?[REDACTED - COGNITO HAZARD]"},
+    "position": {"x": 445, "y": 245}}
 ],
 "edges": [
-    {
-        "data": {"id" : "tbff", "source": "tbug", "target": "ff"}
-    },
-    {   "data": {"id" : "ffm","source": "ff", "target": "meadows"}},
-    {   "data": {"id" : "ffw","source": "ff", "target": "walsons"}},
-    {   "data": {"id" : "ffl","source": "ff", "target": "lilfoot"}}
+    {"data": {"id" : "vcbc", "source": "vc", "target": "bc"}, "classes": ["arrowedge"]},
+    {"data": {"id" : "vcvc2", "source": "vc", "target": "vc2"}, "classes": ["arrowedge"]},
+    {"data": {"id" : "vcvc3", "source": "vc2", "target": "vc3"}},
+    {"data": {"id" : "vcvc4", "source": "vc3", "target": "vc4"}},
+    {"data": {"id" : "vcvc5", "source": "vc4", "target": "vc5"}},
+    {"data": {"id" : "vcvc6", "source": "vc5", "target": "vc6"}},
+    {"data": {"id" : "vcvc7", "source": "vc6", "target": "vc7"}},
+    {"data": {"id" : "vcvc8", "source": "vc7", "target": "vc8"}}
 ]
 }
