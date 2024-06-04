@@ -1,6 +1,5 @@
 /* global document, window, fetch, cytoscape */
 const background = new Image();
-const grid20 = new Image();
 var toJson = function (res) { return res.json(); };
 
 background.onload = () => {
@@ -65,4 +64,3 @@ cy.on("render cyCanvas.resize", evt => {
 });
 }; // Preload image
 background.src = "../assets/parchmentGeneral.jpg";
-grid20.src = "../assets/debuggrid20.png";
