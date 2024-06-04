@@ -49,7 +49,6 @@ cy.on("render cyCanvas.resize", evt => {
     ctx.save();
     // Draw a background
     ctx.drawImage(background, 10, 10, 450, 240);
-    ctx.drawImage(grid20, 10, 10, 450, 240);
 
     // Draw text that follows the model
     ctx.font = "14px monospace";
