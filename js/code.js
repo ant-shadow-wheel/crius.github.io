@@ -5,8 +5,8 @@ var toJson = function (res) { return res.json(); };
 background.onload = () => {
 const cy = window.cy = cytoscape({
     container: document.getElementById('cy'),
-    elements: fetch('../assets/data.json').then(toJson),
-    style: fetch('../assets/cy-style.json').then(toJson),
+    elements: fetch('./assets/data.json').then(toJson),
+    style: fetch('./assets/cy-style.json').then(toJson),
 
     layout: {
         name: "preset",
@@ -63,4 +63,4 @@ cy.on("render cyCanvas.resize", evt => {
     ctx.restore();
 });
 }; // Preload image
-background.src = "../assets/parchmentGeneral.jpg";
+background.src = "./assets/parchmentGeneral.jpg";
