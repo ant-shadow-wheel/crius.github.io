@@ -14,8 +14,15 @@
   "selector": "edge",
   "style": {
     "width": 2,
-    "line-color": "#ccc",
+    "line-color": "#5c3917",
     "curve-style": "bezier"
+  }
+},
+{
+  "selector": ".closedloop",
+  "style": {
+    "line-color": "#000",
+    "width": 1
   }
 },
 {
@@ -29,9 +36,40 @@
   }
 },
 {
-  "selector": "#tbug",
+  "selector": ".locationnode",
   "style": {
-    "background-image" : "../assets/tbugmini.jpg",
-    "background-fit" : "cover"
+    "label":"data(label)",
+    "width": 5,
+    "height": 5,
+    "background-color": "#edac28",
+    "color": "#ffffff",
+    "font-size": 8,
+    "text-outline-color": "#613203",
+    "text-outline-width": 1,
+    "border-width": 0,
+    "outline-width":0,
+    "padding":0
   }
-}]
+},
+{
+  "selector": ".center-right",
+  "style": {
+    "text-valign": "center",
+    "text-halign": "right"
+  }
+},
+{
+  "selector": ".nonvisible",
+  "style": {
+    "visibility": "hidden",
+    "display": "none"
+  }
+},
+{
+  "selector": ".yesvisible",
+  "style": {
+    "visibility": "visible",
+    "display": "element"
+  }
+}
+]
